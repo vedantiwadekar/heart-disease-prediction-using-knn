@@ -47,9 +47,12 @@ Step 4. Feature scaling (data visualization)
      => Checking target class proximity 
 
 Step 5. Splitting data into training and testing set in the ratio of 7:3 respectively => Checking size of testing and training set
+
 KNN model 
+
 This classifier looks for the classes of K nearest neighbors of a given data point and based on the majority class, it assigns a class to this data point. 
 However, the number of neighbors can be varied. I varied them from 1 to 20 neighbors and calculated the test score in each case. 
+     
      => Importing KNeighborsClassifier module from sklearn.neighbors library 
      => plotting graph for K values 
      => listing mean score values
